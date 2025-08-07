@@ -44,10 +44,10 @@ export default function Nav() {
 
         <li>
           <ul className="flex gap-10 text-black">
-            <li className="hidden lg:block">Join the waitlist</li>
-            <li className="hidden lg:block">Contact us</li>
+            <a href="#waitlist"><li className="hidden lg:block">Join the waitlist</li></a>
+            <a href="mailto:odyss.travels@odyss.ng"><li className="hidden lg:block">Contact us</li></a>
             <ul className="flex gap-2 items-center">
-              <li>
+              <a href="https://x.com/travelodyss?s=21"><li>
                 <svg
                   width="24"
                   className="h-5"
@@ -61,8 +61,8 @@ export default function Nav() {
                     fill="black"
                   />
                 </svg>
-              </li>
-              <li>
+              </li></a>
+              <a href="https://www.instagram.com/odyssng?igsh=ZWlraGplam02NmZt" target="_blank"><li>
                 <svg
                   width="24"
                   height="25"
@@ -76,8 +76,8 @@ export default function Nav() {
                     fill="black"
                   />
                 </svg>
-              </li>
-              <li>
+              </li></a>
+              <a href="https://www.tiktok.com/@odyssng?_t=ZS-8yggQfozD9O&_r=1"><li>
                 <svg
                   width="24"
                   height="25"
@@ -91,8 +91,8 @@ export default function Nav() {
                     fill="black"
                   />
                 </svg>
-              </li>
-              <li>
+              </li></a>
+              <a href=""><li>
                 <svg
                   width="24"
                   height="25"
@@ -106,7 +106,7 @@ export default function Nav() {
                     fill="black"
                   />
                 </svg>
-              </li>
+              </li></a>
             </ul>
           </ul>
         </li>

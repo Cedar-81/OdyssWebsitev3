@@ -22,9 +22,9 @@ export default function CTABanner() {
           If we are the story you are the <br className="hidden lg:block" />
           storyteller
         </h2>
-        <button className="px-10 py-3 mt-4 text-xs lg:text-sm rounded-xl lg:w-[20rem] lg:min-w-max font-semibold mx-auto text-white bg-brand">
+        <a href="#waitlist"><button className="px-10 py-3 mt-4 text-xs lg:text-sm rounded-xl lg:w-[20rem] lg:min-w-max font-semibold mx-auto text-white bg-brand">
           Get 50% off your first Playbook with {`"Early Access"`} 
-        </button>
+        </button></a>
       </div>
     </section>
   );

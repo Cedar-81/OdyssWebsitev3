@@ -30,10 +30,12 @@ export default function Playbook() {
                 your next adventure. Less stress, more discovery.
               </p>
             </div>
-            <button className="px-10 py-3 rounded-xl w-full text-xs lg:text-base lg:w-[20rem] lg:min-w-max text-white bg-black">
-              Plan your next adventure in{" "}
-              <span className="text-brand">{`“minutes"`}</span>
-            </button>
+            <a href="#waitlist">
+              <button className="px-10 py-3 rounded-xl w-full text-xs lg:text-base lg:w-[20rem] lg:min-w-max text-white bg-black">
+                Plan your next adventure in{" "}
+                <span className="text-brand">{`“minutes"`}</span>
+              </button>
+            </a>
           </div>
 
           <Image
@@ -61,9 +63,12 @@ export default function Playbook() {
                 curated travel perks.
               </p>
             </div>
-            <button className="px-10 py-3 rounded-xl text-xs lg:text-base lg:w-[20rem] lg:min-w-max text-white bg-black">
+            <a href="#waitlist">
+            <button
+              className="px-10 py-3 rounded-xl text-xs lg:text-base lg:w-[20rem] lg:min-w-max text-white bg-black flex items-center justify-center"
+            >
               Be the first to access exclusive travel deals{" "}
-            </button>
+            </button></a>
           </div>
         </div>
 
@@ -79,9 +84,11 @@ export default function Playbook() {
                 with intention, not regret.
               </p>
             </div>
-            <button className="text-xs lg:text-base px-10 py-3 rounded-xl lg:w-[20rem] lg:min-w-max text-white bg-black">
-              Get more from your travel budget
-            </button>
+            <a href="#waitlist" >
+              <button className="text-xs lg:text-base px-10 py-3 rounded-xl lg:w-[20rem] lg:min-w-max text-white bg-black">
+                Get more from your travel budget
+              </button>
+            </a>
           </div>
 
           <Image
@@ -108,10 +115,10 @@ export default function Playbook() {
           </h3>
         </div>
 
-        <button className="px-10 py-3 text-xs lg:text-base rounded-xl lg:w-[20rem] lg:min-w-max font-semibold mx-auto text-white bg-black">
+        <a href="#waitlist"><button className="px-10 py-3 text-xs lg:text-base rounded-xl lg:w-[20rem] lg:min-w-max font-semibold mx-auto text-white bg-black">
           Get 50% off your first Playbook with{" "}
           <span className="text-brand">{`"Early Access"`}</span>
-        </button>
+        </button></a>
       </div>
     </section>
   );

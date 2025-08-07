@@ -254,9 +254,11 @@ export default function Banner() {
             {slides[currentSlide].subtitle}
           </p>
         </div>
-        <button className="px-10 py-3 rounded-xl w-full lg:w-[15rem] text-white bg-black transform transition-all duration-700 ease-in-out delay-200 hover:scale-105 hover:bg-gray-800">
-          {slides[currentSlide].button_txt}
-        </button>
+        <a href="#waitlist">
+          <button className="px-10 py-3 rounded-xl w-full lg:w-[15rem] text-white bg-black transform transition-all duration-700 ease-in-out delay-200 hover:scale-105 hover:bg-gray-800">
+            {slides[currentSlide].button_txt}
+          </button>
+        </a>
       </div>
     </section>
   );
