@@ -3,7 +3,7 @@ import Olumirin from "@/public/olumirin.png";
 
 export default function CTABanner() {
   return (
-    <section className="w-full flex justify-center mb-[10rem] items-center text-white h-[70vh] lg:h-[50vh] relative lg:rounded-2xl overflow-clip">
+    <section className="w-full flex justify-center lg:mb-[10rem] items-center text-white h-[70vh] lg:h-[50vh] relative lg:rounded-2xl overflow-clip">
       <h2 className="absolute text-white right-5 lg:right-10 font-bold top-5 lg:top-10 z-10">
         OLUMIRIN WATERFALLS
       </h2>
