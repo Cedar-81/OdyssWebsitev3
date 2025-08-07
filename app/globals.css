@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --brand: #e03e1a;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-onset: var(--font-onset);
+    --color-brand: var(--brand);
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Onset, Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-weight: 600;
+    border: 2px solid var(--brand);
+}
