@@ -102,8 +102,9 @@ export default function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [progress, setProgress] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const progressRef = useRef<number>(0);
-  const animationRef = useRef<number>();
+
+
+  const animationRef = useRef<number | null>(null);
   const screenSize = useScreenSize();
 
   const SLIDE_DURATION = 15000; // 5 seconds
