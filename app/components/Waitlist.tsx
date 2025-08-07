@@ -73,7 +73,7 @@ export default function Waitlist() {
       <section id="waitlist" className="space-y-6 px-8 lg:px-0">
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl font-bold">
-            Don't just travel become a <span className="text-brand">Tourist</span>
+            Don&lsquo;t just travel become a <span className="text-brand">Tourist</span>
           </h2>
           <p className="lg:text-lg">
             From weddings to retreats, make every trip a tour to remember.
