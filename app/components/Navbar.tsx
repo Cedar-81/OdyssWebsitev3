@@ -92,7 +92,7 @@ export default function Nav() {
                   />
                 </svg>
               </li></a>
-              <a href=""><li>
+              <a href="https://whatsapp.com/channel/0029Vb6Fd03CRs1oQkFu1i3H"><li>
                 <svg
                   width="24"
                   height="25"
